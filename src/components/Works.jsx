@@ -33,6 +33,14 @@ const Works = () => {
       description:
         "A food ordering website where people can order foods from different restaurants.",
     },
+    {
+      id: 5,
+      title: "LMS API",
+      category: "Backend Development",
+      image: "/public/lmsApi.jpg",
+      description:
+        "A simple API for managing a library management system with CRUD operations and OTP features to register.",
+    },
   ];
 
   return (
