@@ -18,6 +18,13 @@ const Works = () => {
       image: "public/youtube.jpg",
       description: "A clone of YouTube with video streaming & live chats.",
     },
+    {
+      id: 3,
+      title: "Todos API",
+      category: "Backend Development",
+      image: "/public/todosApi.jpg",
+      description: "A simple API for managing todos with CRUD operations.",
+    },
   ];
 
   return (
