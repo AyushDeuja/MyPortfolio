@@ -7,7 +7,7 @@ const Works = () => {
       id: 1,
       title: "Netflix-GPT",
       category: "Full Stack Development",
-      image: "/public/netflix-gpt.jpg",
+      image: "/netflix-gpt.jpg",
       description:
         "A Netflix clone with a chatbot interface for personalized recommendations and suggestions according to user requirements.",
     },
@@ -15,21 +15,21 @@ const Works = () => {
       id: 2,
       title: "Youtube Clone",
       category: "Frontend Development",
-      image: "public/youtube.jpg",
+      image: "/youtube.jpg",
       description: "A clone of YouTube with video streaming & live chats.",
     },
     {
       id: 3,
       title: "Todos API",
       category: "Backend Development",
-      image: "/public/todosApi.jpg",
+      image: "/todosApi.jpg",
       description: "A simple API for managing todos with CRUD operations.",
     },
     {
       id: 4,
       title: "Food ordering website",
       category: "Frontend Development",
-      image: "public/foodApp.jpg",
+      image: "/foodApp.jpg",
       description:
         "A food ordering website where people can order foods from different restaurants.",
     },
@@ -37,7 +37,7 @@ const Works = () => {
       id: 5,
       title: "LMS API",
       category: "Backend Development",
-      image: "/public/lmsApi.jpg",
+      image: "/lmsApi.jpg",
       description:
         "A simple API for managing a library management system with CRUD operations and OTP features to register.",
     },
@@ -45,7 +45,7 @@ const Works = () => {
       id: 6,
       title: "Movie Mania",
       category: "Frontend Development",
-      image: "/public/movieMania.jpg",
+      image: "/movieMania.jpg",
       description:
         "A movie recommendation website that provides personalized movie suggestions based on upcoming, trending & user preferences.",
     },
