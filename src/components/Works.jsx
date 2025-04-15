@@ -41,6 +41,14 @@ const Works = () => {
       description:
         "A simple API for managing a library management system with CRUD operations and OTP features to register.",
     },
+    {
+      id: 6,
+      title: "Movie Mania",
+      category: "Frontend Development",
+      image: "/public/movieMania.jpg",
+      description:
+        "A movie recommendation website that provides personalized movie suggestions based on upcoming, trending & user preferences.",
+    },
   ];
 
   return (
