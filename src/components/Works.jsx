@@ -2,7 +2,23 @@ import React from "react";
 import { FolderOpen, Image, Layers, ExternalLink } from "lucide-react";
 
 const Works = () => {
-  const projects = [];
+  const projects = [
+    {
+      id: 1,
+      title: "Netflix-GPT",
+      category: "Full Stack Development",
+      image: "/public/netflix-gpt.jpg",
+      description:
+        "A Netflix clone with a chatbot interface for personalized recommendations and suggestions according to user requirements.",
+    },
+    {
+      id: 2,
+      title: "Youtube Clone",
+      category: "Frontend Development",
+      image: "public/youtube.jpg",
+      description: "A clone of YouTube with video streaming & live chats.",
+    },
+  ];
 
   return (
     <section id="works" className="py-20 bg-background">
