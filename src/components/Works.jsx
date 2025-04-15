@@ -25,6 +25,14 @@ const Works = () => {
       image: "/public/todosApi.jpg",
       description: "A simple API for managing todos with CRUD operations.",
     },
+    {
+      id: 4,
+      title: "Food ordering website",
+      category: "Frontend Development",
+      image: "public/foodApp.jpg",
+      description:
+        "A food ordering website where people can order foods from different restaurants.",
+    },
   ];
 
   return (
