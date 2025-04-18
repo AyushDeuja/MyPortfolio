@@ -118,7 +118,7 @@ const Contact = () => {
               </div>
 
               <div className="mt-8">
-                <h4 className="font-medium mb-3">Follow Me</h4>
+                <h4 className="font-medium mb-3">Follow Me Here</h4>
                 <div className="flex space-x-3">
                   <a
                     href="https://www.facebook.com/ayush.deuja.1"
