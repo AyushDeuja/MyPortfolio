@@ -52,7 +52,7 @@ const About = () => {
               </li>
               <li className="flex justify-between">
                 <span className="font-medium">Email: </span>
-                <span>ayushdeuja11@gmail.com</span>
+                <span className="text-right pl-4">ayushdeuja11@gmail.com</span>
               </li>
               <li className="flex justify-between">
                 <span className="font-medium">Phone: </span>
@@ -62,9 +62,9 @@ const About = () => {
                 <span className="font-medium">Experience: </span>
                 <span>Fresher</span>
               </li>
-              <li className="flex justify-between">
+              <li className="flex justify-between ">
                 <span className="font-medium">Languages: </span>
-                <span>Nepali, English, Hindi</span>
+                <span className=" text-right">Nepali, English, Hindi</span>
               </li>
             </ul>
           </div>
