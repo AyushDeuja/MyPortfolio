@@ -1,5 +1,12 @@
 import React from "react";
-import { FolderOpen, Layers, ExternalLink } from "lucide-react";
+import {
+  FolderOpen,
+  Layers,
+  ExternalLink,
+  Github,
+  GithubIcon,
+  LucideGithub,
+} from "lucide-react";
 
 const Works = () => {
   const projects = [
@@ -92,7 +99,7 @@ const Works = () => {
                   rel="noopener noreferrer"
                   className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <ExternalLink className="h-8 w-8 text-white hover:scale-110 transition-transform" />
+                  <Github className="h-8 w-8 text-white hover:scale-110 transition-transform" />
                 </a>
               </div>
               <div className="p-6">
