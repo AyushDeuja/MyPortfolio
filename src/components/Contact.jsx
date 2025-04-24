@@ -17,13 +17,11 @@ const Contact = () => {
     loading: false,
   });
 
-  // EmailJS configuration
   const serviceId = "service_edz9k5p";
   const templateId = "template_vxk0un9";
   const publicKey = "MEzXOjqcewSVvz-Ca";
 
   useEffect(() => {
-    // Initialize emailjs
     emailjs.init(publicKey);
   }, [publicKey]);
 
@@ -45,7 +43,6 @@ const Contact = () => {
         setSubmitStatus({ submitted: true, success: true, loading: false });
         toast.success("Message sent successfully!");
 
-        // Reset form after successful submission
         setFormData({
           name: "",
           email: "",
@@ -53,7 +50,6 @@ const Contact = () => {
           message: "",
         });
 
-        // Reset status after 5 seconds
         setTimeout(() => {
           setSubmitStatus({
             submitted: false,
@@ -94,9 +90,12 @@ const Contact = () => {
                   <Mail className="w-5 h-5 text-primary mr-3 mt-1" />
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p className="text-muted-foreground">
+                    <a
+                      href="mailto:ayushdeuja11@gmail.com"
+                      className="text-muted-foreground hover:underline"
+                    >
                       ayushdeuja11@gmail.com
-                    </p>
+                    </a>
                   </div>
                 </div>
 
@@ -112,7 +111,14 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-primary mr-3 mt-1" />
                   <div>
                     <h4 className="font-medium">Location</h4>
-                    <p className="text-muted-foreground">Biratnagar, Nepal</p>
+                    <a
+                      href="https://www.google.com/maps?q=Biratnagar,+Nepal"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:underline"
+                    >
+                      Biratnagar, Nepal
+                    </a>
                   </div>
                 </div>
               </div>
