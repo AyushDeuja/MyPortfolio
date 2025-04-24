@@ -17,7 +17,7 @@ const Works = () => {
       title: "Youtube Clone",
       category: "Frontend Development",
       image: "/youtube.jpg",
-      github: "https://github.com/your-username/youtube-clone",
+      github: "https://github.com/AyushDeuja/youtube",
       description: "A clone of YouTube with video streaming & live chats.",
     },
     {
@@ -25,7 +25,7 @@ const Works = () => {
       title: "Todos API",
       category: "Backend Development",
       image: "/todosApi.jpg",
-      github: "https://github.com/your-username/todos-api",
+      github: "https://github.com/AyushDeuja/Todos-api",
       description: "A simple API for managing todos with CRUD operations.",
     },
     {
