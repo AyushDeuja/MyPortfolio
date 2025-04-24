@@ -35,11 +35,22 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const lastSent = localStorage.getItem("lastEmailSent");
+    const now = Date.now();
+
+    if (lastSent && now - parseInt(lastSent) < 60000) {
+      toast.warning("Please wait a minute before sending another message.");
+      return;
+    }
+
     setSubmitStatus((prev) => ({ ...prev, loading: true }));
 
     emailjs.send(serviceId, templateId, formData, publicKey).then(
       (result) => {
         console.log("Email sent successfully:", result.text);
+        localStorage.setItem("lastEmailSent", now.toString());
+
         setSubmitStatus({ submitted: true, success: true, loading: false });
         toast.success("Message sent successfully!");
 
@@ -148,6 +159,7 @@ const Contact = () => {
                       <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                     </svg>
                   </a>
+
                   <a
                     href="https://www.linkedin.com/in/ayushdeuja/"
                     className="w-10 h-10 flex items-center justify-center rounded-full bg-secondary text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
