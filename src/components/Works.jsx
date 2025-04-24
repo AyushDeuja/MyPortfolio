@@ -33,7 +33,7 @@ const Works = () => {
       title: "Food ordering website",
       category: "Frontend Development",
       image: "/foodApp.jpg",
-      github: "https://github.com/your-username/food-ordering-app",
+      github: "https://github.com/AyushDeuja/FoodApp",
       description:
         "A food ordering website where people can order foods from different restaurants.",
     },
@@ -42,7 +42,7 @@ const Works = () => {
       title: "LMS API",
       category: "Backend Development",
       image: "/lmsApi.jpg",
-      github: "https://github.com/your-username/lms-api",
+      github: "https://github.com/AyushDeuja/LMS/tree/main/Backend",
       description:
         "A simple API for managing a library management system with CRUD operations and OTP features to register.",
     },
@@ -51,7 +51,7 @@ const Works = () => {
       title: "Movie Mania",
       category: "Frontend Development",
       image: "/movieMania.jpg",
-      github: "https://github.com/your-username/movie-mania",
+      github: "https://github.com/AyushDeuja/HDC-TMDB-API-REACT",
       description:
         "A movie recommendation website that provides personalized movie suggestions based on upcoming, trending & user preferences.",
     },
