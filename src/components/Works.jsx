@@ -1,5 +1,5 @@
 import React from "react";
-import { FolderOpen, Image, Layers, ExternalLink } from "lucide-react";
+import { FolderOpen, Layers, ExternalLink } from "lucide-react";
 
 const Works = () => {
   const projects = [
@@ -8,6 +8,7 @@ const Works = () => {
       title: "Netflix-GPT",
       category: "Full Stack Development",
       image: "/netflix-gpt.jpg",
+      github: "https://github.com/AyushDeuja/netflix-gpt",
       description:
         "A Netflix clone with a chatbot interface for personalized recommendations and suggestions according to user requirements.",
     },
@@ -16,6 +17,7 @@ const Works = () => {
       title: "Youtube Clone",
       category: "Frontend Development",
       image: "/youtube.jpg",
+      github: "https://github.com/your-username/youtube-clone",
       description: "A clone of YouTube with video streaming & live chats.",
     },
     {
@@ -23,6 +25,7 @@ const Works = () => {
       title: "Todos API",
       category: "Backend Development",
       image: "/todosApi.jpg",
+      github: "https://github.com/your-username/todos-api",
       description: "A simple API for managing todos with CRUD operations.",
     },
     {
@@ -30,6 +33,7 @@ const Works = () => {
       title: "Food ordering website",
       category: "Frontend Development",
       image: "/foodApp.jpg",
+      github: "https://github.com/your-username/food-ordering-app",
       description:
         "A food ordering website where people can order foods from different restaurants.",
     },
@@ -38,6 +42,7 @@ const Works = () => {
       title: "LMS API",
       category: "Backend Development",
       image: "/lmsApi.jpg",
+      github: "https://github.com/your-username/lms-api",
       description:
         "A simple API for managing a library management system with CRUD operations and OTP features to register.",
     },
@@ -46,6 +51,7 @@ const Works = () => {
       title: "Movie Mania",
       category: "Frontend Development",
       image: "/movieMania.jpg",
+      github: "https://github.com/your-username/movie-mania",
       description:
         "A movie recommendation website that provides personalized movie suggestions based on upcoming, trending & user preferences.",
     },
@@ -60,7 +66,7 @@ const Works = () => {
           </h2>
           <div className="flex items-center justify-center gap-2 mb-4">
             <FolderOpen className="h-5 w-5 text-primary" />
-            <p className="text-muted-foreground text-lg ">Portfolio Showcase</p>
+            <p className="text-muted-foreground text-lg">Portfolio Showcase</p>
           </div>
           <p className="text-muted-foreground">
             A collection of my recent projects and accomplishments spanning
@@ -80,6 +86,14 @@ const Works = () => {
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                >
+                  <ExternalLink className="h-8 w-8 text-white hover:scale-110 transition-transform" />
+                </a>
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-2">
