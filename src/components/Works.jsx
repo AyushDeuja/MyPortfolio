@@ -50,7 +50,8 @@ const Works = () => {
       category: "Full Stack Development",
       image: "/lms.png",
       github: "https://github.com/AyushDeuja/LMS",
-      description: "",
+      description:
+        "A Library Management System webApplication that allows users to manage books, members and transactions.",
     },
     {
       id: 6,
