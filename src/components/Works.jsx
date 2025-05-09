@@ -47,11 +47,10 @@ const Works = () => {
     {
       id: 5,
       title: "LMS API",
-      category: "Backend Development",
-      image: "/lmsApi.jpg",
-      github: "https://github.com/AyushDeuja/LMS/tree/main/Backend",
-      description:
-        "A simple API for managing a library management system with CRUD operations and OTP features to register.",
+      category: "Full Stack Development",
+      image: "/lms.png",
+      github: "https://github.com/AyushDeuja/LMS",
+      description: "",
     },
     {
       id: 6,
