@@ -12,6 +12,15 @@ const Works = () => {
   const projects = [
     {
       id: 1,
+      title: "Library Management System",
+      category: "Full Stack Development",
+      image: "/lms.png",
+      github: "https://github.com/AyushDeuja/LMS",
+      description:
+        "A Library Management System web application that allows users to manage books, members and transactions.",
+    },
+    {
+      id: 2,
       title: "Netflix-GPT",
       category: "Full Stack Development",
       image: "/netflix-gpt.jpg",
@@ -20,7 +29,7 @@ const Works = () => {
         "A Netflix clone with a chatbot interface for personalized recommendations and suggestions according to user requirements.",
     },
     {
-      id: 2,
+      id: 3,
       title: "Youtube Clone",
       category: "Frontend Development",
       image: "/youtube.jpg",
@@ -28,7 +37,7 @@ const Works = () => {
       description: "A clone of YouTube with video streaming & live chats.",
     },
     {
-      id: 3,
+      id: 4,
       title: "Todos API",
       category: "Backend Development",
       image: "/todosApi.jpg",
@@ -36,7 +45,7 @@ const Works = () => {
       description: "A simple API for managing todos with CRUD operations.",
     },
     {
-      id: 4,
+      id: 5,
       title: "Food ordering website",
       category: "Frontend Development",
       image: "/foodApp.jpg",
@@ -44,15 +53,7 @@ const Works = () => {
       description:
         "A food ordering website where people can order foods from different restaurants.",
     },
-    {
-      id: 5,
-      title: "Library Management System",
-      category: "Full Stack Development",
-      image: "/lms.png",
-      github: "https://github.com/AyushDeuja/LMS",
-      description:
-        "A Library Management System web application that allows users to manage books, members and transactions.",
-    },
+
     {
       id: 6,
       title: "Movie Mania",
