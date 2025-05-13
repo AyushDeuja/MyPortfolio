@@ -46,7 +46,7 @@ const Works = () => {
     },
     {
       id: 5,
-      title: "LMS API",
+      title: "LMS",
       category: "Full Stack Development",
       image: "/lms.png",
       github: "https://github.com/AyushDeuja/LMS",
